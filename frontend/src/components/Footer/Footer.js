@@ -1,4 +1,5 @@
-import { assets } from '../../assets/frontend_assets/assets';
+// import { assets } from '../../assets/frontend_assets/assets';
+import { assets } from  "C:/Web_Development/tomato/frontend/src/assets/frontend_assets/assets.js"
 import './Footer.css';
 
 function Footer(){
@@ -35,7 +36,7 @@ function Footer(){
             </div>
         </div>
         <hr/>
-        <p className='footer-copyright'>Copyright 2024 <i class="fa fa-copyright" aria-hidden="true"></i> Tomato.com - All Right Reserved.</p>
+        <p className='footer-copyright'>Copyright 2024 <i className="fa fa-copyright" aria-hidden="true"></i> Tomato.com - All Right Reserved.</p>
        </div>
 
     )

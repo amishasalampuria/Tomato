@@ -2,12 +2,15 @@ import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import {Routes, Route} from 'react-router-dom'
-import Home from 'C:/Web_Development/zomato/frontend/src/pages/Home/Home.js';
-import Cart from 'C:/Web_Development/zomato/frontend/src/pages/Cart/Cart.js';
+import Home from 'C:/Web_Development/tomato/frontend/src/pages/Home/Home.js';
+import Cart from 'C:/Web_Development/tomato/frontend/src/pages/Cart/Cart.js';
 import PlaceOrder  from './pages/PlaceOrder/PlaceOrder.js';
 import NotFound from './pages/NotFound.js';
-import Footer from 'C:/Web_Development/zomato/frontend/src/components/Footer/Footer.js'
+import Footer from 'C:/Web_Development/tomato/frontend/src/components/Footer/Footer.js'
 import LoginPopUp from './components/LoginPopUp/LoginPopUp.js';
+import MyOrders from './pages/MyOrders/MyOrders.js';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -22,8 +25,10 @@ function App() {
         <Route path='/' element = {<Home/>} />
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/order' element={<PlaceOrder/>}/>
+        <Route path='/myorders' element={<MyOrders/>} />
         <Route path="*"  element={<NotFound/>} />
       </Routes>
+      <ToastContainer/>
    </div>
    <Footer/>
    </>

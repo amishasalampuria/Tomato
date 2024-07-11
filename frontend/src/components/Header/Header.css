@@ -1,7 +1,7 @@
 .header{
     height: 34vw;
     margin: 30px auto;
-    background: url('C:/Web_Development/zomato/frontend/public/header_img.png') no-repeat;
+    background: url('C:/Web_Development/tomato/frontend/public/header_img.png') no-repeat;
     /* background: url('C:/Web_Development/zomato/public/zomato-logo.png') no-repeat; */
     background-size: contain;
     position: relative;
