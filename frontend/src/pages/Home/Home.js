@@ -3,10 +3,11 @@ import './Home.css';
 
 // import '../../components/Header/Header'
 import Header from  'C:/Web_Development/tomato/frontend/src/components/Header/Header.js'
-import ExploreMenu from 'C:/Web_Development/tomato/frontend/src/components/ExploreMenu/ExploreMenu.js'
+// import ExploreMenu from 'C:/Web_Development/tomato/frontend/src/components/ExploreMenu/ExploreMenu.js'
 import FoodDisplay from 'C:/Web_Development/tomato/frontend/src/components/FoodDisplay/FoodDisplay.js'
 import AppDownload from 'C:/Web_Development/tomato/frontend/src/components/AppDownload/AppDownload.js'
-// import StoreContext from '../../context/StoreContext';
+
+import ExploreMenu from '../../components/ExploreMenu/ExploreMenu.js'
 
 function Home(){
   const[category, setCategory] = useState("All")
