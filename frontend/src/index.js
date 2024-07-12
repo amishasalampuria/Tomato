@@ -45,13 +45,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import ErrorBoundary from './ErrorBoundary';
-<<<<<<< HEAD
-// import {StoreContextProvider} from 'C:/Web_Development/tomato/frontend/src/context/StoreContext'; // Update path based on your project structure
 import { StoreContextProvider } from './context/StoreContext';
-=======
-import {StoreContextProvider} from './context/StoreContext'; // Update path based on your project structure
->>>>>>> 0190710597b57fc19a8a7ed521ead7614491eab1
-
 // ReactDOM.createRoot is used for Concurrent Mode, but ReactDOM.render is sufficient for most applications
 // ReactDOM.render(
 //   <React.StrictMode>
