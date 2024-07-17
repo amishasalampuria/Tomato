@@ -2,9 +2,9 @@ import React, { useContext } from 'react'
 import './Navbar.css'
 // import logo from 'C:/Web_Development/zomato/src/assets/frontend_assets/logo.png'
 // import logo from 'C:/Web_Development/zomato/frontend/src/assets/frontend_assets/Zomato-Logo.png';
-import logo from 'C:/Web_Development/tomato/frontend/src/assets/frontend_assets/logo.png'
-import search_icon from 'C:/Web_Development/tomato/frontend/src/assets/frontend_assets/search_icon.png';
-import basket_icon from 'C:/Web_Development/tomato/frontend/src/assets/frontend_assets/basket_icon.png';
+import logo from '../../assets/frontend_assets/logo.png'
+import search_icon from '../../assets/frontend_assets/search_icon.png';
+import basket_icon from '../../assets/frontend_assets/basket_icon.png';
 import {useState} from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import {StoreContext} from '../../context/StoreContext'
