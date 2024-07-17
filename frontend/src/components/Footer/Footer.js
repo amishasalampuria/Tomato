@@ -1,5 +1,4 @@
-// import { assets } from '../../assets/frontend_assets/assets';
-import { assets } from  "C:/Web_Development/tomato/frontend/src/assets/frontend_assets/assets.js"
+import { assets } from '../../assets/frontend_assets/assets.js';
 import './Footer.css';
 
 function Footer(){
